@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    base: "/harshitweb/",
     hmr: {
       overlay: false,
     },
@@ -19,3 +20,4 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
