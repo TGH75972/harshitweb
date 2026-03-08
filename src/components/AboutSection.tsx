@@ -19,7 +19,7 @@ const tag = {
 const AboutSection = () => {
   return (
     <section id="about" className="relative py-32 px-6">
-      <div className="section-divider absolute top-0 left-0 right-0" />
+      <div className="section-divider absolute top-4 left-0 right-0" />
       <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -70,3 +70,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
